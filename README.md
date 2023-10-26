@@ -1,7 +1,7 @@
 # What is this?
 A collection of classpad2 c and asm code I wanna use more frequently in my projects
 
-## What Does this contain?
+# What Does this contain?
 For now just a function that can blit an image onto the classpad's screen without the usage of the VRAM.
 This is faster than the usually seen method of using setPixel to copy stuff into VRAM and then calling LCD_Refresh
 because you only have to send the pixels you actually wanna update and skip everything outside of that rectangle and
