@@ -6,3 +6,6 @@ Use left and right to scroll.
 # How does this work?
 It's a custom screen refresh function that offsets from where it gets its pixeldata a little when drawing.
 This is way faster than doing this by first writing everything to VRAM and then to the screen (saves 50% of write operations).
+
+# How can I use this in my own project?
+You only need refresh.s and refresh.h. Include refresh.h in whatever source file you wanna use the function in.
